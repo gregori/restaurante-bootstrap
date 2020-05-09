@@ -20,7 +20,7 @@ body {
 .navbar-brand h1 {
   font-family: 'Lora', serif;
   color: #557c3e;
-  font-size: 1.5em;
+  font-size: 1.5rem;
   /* 1.5 * 16px */
   text-transform: uppercase;
   font-weight: bold;
@@ -34,10 +34,43 @@ body {
 .navbar-brand p {
   color: #000;
   text-transform: uppercase;
-  font-size: .7em;
+  font-size: .7rem;
   margin-top: 15px;
 }
 
 .navbar-brand p span {
   vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: #951c49;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: #e7e7e7;
+}
+
+#nav-list a i {
+  font-size: 1.8rem;
+  margin-right: 5px;
+}
+
+#phone {
+  margin-top: 5px;
+}
+
+#phone a {
+  text-align: right;
+  padding-bottom: 0;
+}
+
+#phone div {
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
 }
