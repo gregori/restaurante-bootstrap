@@ -14,39 +14,45 @@
 </head>
 
 <body>
+  <!-- HEADER - barra de menus -->
   <header>
-    <nav id="header-nav" class="navbar navbar-expand-md navbar-light">
+    <nav id="header-nav" class="navbar navbar-expand-lg navbar-light">
+      <!-- Logo e título do site -->
       <a href="index.html" class="navbar-brand">
-        <div id="logo-img" class="float-left d-none d-md-block"></div>
+        <div id="logo-img" class="float-left d-none d-lg-block"></div>
         <h1>David Chu's Bistrô Chinês</h1>
         <p>
           <img src="images/star-k-logo.png" alt="Certificação Kosher">
           <span>Certificação Kosher</span>
         </p>
       </a>
+      <!-- final Logo e título do site -->
+      <!-- Botão de menu responsivo -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Final - Botão de menu responsivo -->
+      <!-- Menu de opções -->
+      <div class="collapse navbar-collapse ml-auto mb-auto pt-40" id="navbarSupportedContent">
         <ul id="nav-list" class="navbar-nav ml-auto">
           <!-- itens de menu para a direita ml-auto -->
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-utensils"></i><span>Menu</span>
+            <a href="#" class="nav-link d-lg-flex flex-column">
+              <i class="fas fa-utensils"></i> Menu
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-info"></i>Sobre
+            <a href="#" class="nav-link d-lg-flex flex-column">
+              <i class="fas fa-info"></i> Sobre
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="fas fa-award"></i>Prêmios
+            <a href="#" class="nav-link d-lg-flex flex-column">
+              <i class="fas fa-award"></i> Prêmios
             </a>
           </li>
-          <li class="nav-item" id="phone">
+          <li class="d-md-none d-lg-block" id="phone">
             <a href="tel:+55479999-9999">
               <span>(47) 9999-9999</span>
               <div>* Fazemos entregas</div>
@@ -54,8 +60,20 @@
           </li>
         </ul>
       </div>
+      <!-- Final do menu -->
     </nav>
   </header>
+  <!-- final do HEADER -->
+
+  <div id="call-btn" class="d-md-block d-lg-none">
+    <a class="btn btn-primary" href="tel:+55479999-9999">
+      <i class="fas fa-phone"></i>
+      (47) 9999-9999
+    </a>
+  </div>
+  <div id="md-deliver" class="d-md-flex d-lg-none">
+    <span class="mx-auto">* Fazemos Entregas</span>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
