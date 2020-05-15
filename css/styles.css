@@ -61,10 +61,6 @@ body {
   margin-right: 5px;
 }
 
-#phone {
-  margin-top: 5px;
-}
-
 #phone a {
   text-align: right;
   padding-bottom: 0;
@@ -105,7 +101,7 @@ body {
   /* Header */
   .navbar-brand {
     padding-top: 10px;
-    height: 80px;
+    height: 90px;
   }
   .navbar-brand h1 {
     padding-top: 10px;
@@ -130,6 +126,7 @@ body {
     font-size: 1em;
     margin-right: 5px;
   }
+  /* Botão que aparece em telas menores */
   #call-btn {
     margin-top: 20px;
   }
@@ -147,5 +144,6 @@ body {
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    text-align: center;
   }
 }
